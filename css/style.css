@@ -61,7 +61,6 @@
   right: 0;
   bottom: 0;
   top: 0;
-  overflow: hidden;
 }
 
 #home .home-bg::after {
@@ -75,9 +74,9 @@
 }
 
 #home .home-bg img {
-  position: relative;
   width: 100%;
-  background-size: cover;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* --- 모든 페이지 title 제목 --- */

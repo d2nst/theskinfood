@@ -153,6 +153,38 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 0 30px;
+    color: #000;
+    z-index: 1;
+  }
+
+  #home .txt a {
+    display: block;
+    width: 200px;
+    height: 53px;
+    border: 1px solid var(--point-color);
+    line-height: 50px;
+    transition: all 0.4s linear;
+    font-size: 14px;
+    margin: 0 auto;
+    color: #eeecdf;
+    background-color: var(--point-color);
+  }
+
+  #home .txt a:hover {
+    color: var(--point-color);
+    background-color: #eeecdf;
+    border-color: #eeecdf;
+  }
+
+  #home .home-bg::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff46;
   }
 
   /* #bestseller - items */
